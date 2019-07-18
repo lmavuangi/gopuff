@@ -6400,6 +6400,15 @@ a.icon-cart-furniture.food-cart span {
     z-index: 999;
 }
 
+.clickable-mainmenu-btn-test {
+    background-color: #02bffc;
+    left: 90px;
+    padding: 15px 10px;
+    position: absolute;
+    top: 40px;
+    z-index: 999;
+}
+
 .btn-hover-black::before {
     background: #333 none repeat scroll 0 0;
     bottom: 0;
