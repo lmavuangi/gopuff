@@ -1,3 +1,10 @@
+:root
+{
+    --headerColor : #f05f40;
+    --secondColor : #02bffc;
+}
+
+
 /*-----------------------------------------------------------------------------------
 
     Template Name: Ezone - eCommerce HTML5 Template
@@ -4882,7 +4889,7 @@ a.icon-cart-furniture span.green {
 }
 /*******changed background color here********/
 .header-sticky.stick {
-    background: #1834a6;
+    background: var(--headerColor);
     padding: 15px 0;
     position: fixed;
     top: 0;
@@ -6297,7 +6304,7 @@ a.icon-cart-furniture.food-cart span {
     color: #383838;
 }
 .fashion-2-header .shop-count {
-    background-color: #02bffc;
+    background-color: var(--headerColor);
 }
 .header-sticky-2 {
     left: 0;
@@ -6401,7 +6408,7 @@ a.icon-cart-furniture.food-cart span {
 }
 
 .clickable-mainmenu-btn-test {
-    background-color: #02bffc;
+    background-color: var(--headerColor);
     left: 90px;
     padding: 15px 10px;
     position: absolute;
