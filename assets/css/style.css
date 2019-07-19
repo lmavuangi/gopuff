@@ -124,6 +124,20 @@
     24. Modal style
     
 -----------------------------------------------------------------------------------*/
+/***********************************************************************
+|btn styles - 
+|**********************************************************************/
+.shop-btn
+{
+    background-color: var(--headerColor);
+    color:white;
+    cursor: pointer;
+}
+
+.shop-center
+{
+    text-align: center;
+}
 
 
 /* 2. index page */
@@ -6409,10 +6423,14 @@ a.icon-cart-furniture.food-cart span {
 
 .clickable-mainmenu-btn-test {
     background-color: var(--headerColor);
-    left: 90px;
-    padding: 15px 10px;
+    /**/left: 90px;
     position: absolute;
     top: 40px;
+    
+    /*position: relative;
+    bottom: 55px;*/
+    
+    padding: 15px 10px;
     z-index: 999;
 }
 
@@ -8217,11 +8235,7 @@ a.bundle-btn {
 .blog-details-info > img {
     width: 100%;
 }
-/*------------ 21. Contact us -----------*/
-#hastech2 {
-    height: 402px;
-    width: 100%;
-}
+
 .contact-input-style input {
     background: transparent none repeat scroll 0 0;
     border: 1px solid #ececec;
